@@ -2,10 +2,13 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { Plane, GraduationCap, FolderOpen } from "lucide-react";
 
+import { BarChart3 } from "lucide-react";
+
 const stats = [
   { icon: Plane, value: 86, label: "Flight Hours", suffix: "" },
   { icon: GraduationCap, value: 110, label: "ECTS Credits", suffix: "" },
-  { icon: FolderOpen, value: 6, label: "Projects", suffix: "" },
+  { icon: BarChart3, value: 4274, label: "Skills Indexed", suffix: "+" },
+  { icon: FolderOpen, value: 7, label: "Projects", suffix: "" },
 ];
 
 const Counter = ({ target, inView }: { target: number; inView: boolean }) => {
@@ -47,7 +50,7 @@ const About = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="grid grid-cols-3 gap-6 mt-16 max-w-2xl"
+          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-3xl"
         >
           {stats.map((stat) => (
             <div key={stat.label} className="glass-card p-6 text-center">

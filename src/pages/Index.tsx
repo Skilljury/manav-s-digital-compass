@@ -13,6 +13,7 @@ const Index = () => (
     <Navbar />
     <Hero />
     <About />
+    <PersonalProjects />
     <Projects />
     <Skills />
     <Certifications />
