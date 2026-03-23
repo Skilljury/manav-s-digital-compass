@@ -18,10 +18,8 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <MapPin size={14} className="text-muted-foreground" />
-            <span className="text-sm text-muted-foreground tracking-wide">Kouvola, Finland</span>
-          </div>
+
+
 
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-none mb-6">
             <span className="text-foreground">MANAV</span>
