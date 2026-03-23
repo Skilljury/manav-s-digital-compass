@@ -33,7 +33,7 @@ const PersonalProjects = () => {
                 Personal Project
               </span>
               <span className="pill">AI Agent Skill Discovery</span>
-              <span className="text-xs text-muted-foreground italic">Vibe-coded with Codex &amp; Claude</span>
+              <span className="text-xs text-muted-foreground italic">Built with AI-assisted development</span>
             </div>
 
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3 tracking-tight">SkillJury</h3>

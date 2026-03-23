@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className="border-t border-border py-12">
     <div className="section-container flex flex-col md:flex-row items-center justify-between gap-6">
       <p className="text-sm text-muted-foreground">
-        Manav Joshi · Kouvola, Finland · 2026
+        Manav Joshi · 2026
       </p>
       <div className="flex items-center gap-5">
         <a href="https://www.linkedin.com/in/manavjoshi1/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
