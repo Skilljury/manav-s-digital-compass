@@ -44,6 +44,15 @@ const About = () => {
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
             BBA student in Digital International Business at XAMK, Finland. I work at the intersection of strategy and data — applying frameworks like SWOT, PESTEL, DMAIC, and the Kraljic Matrix to real business problems. Former flight student with 86 logged hours on a Cessna 172 — aviation taught me precision, checklists, and calm decision-making under pressure.
           </p>
+          <a
+            href="/Manav_Joshi_Transcript.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-4 text-sm text-primary hover:text-accent transition-colors duration-200"
+          >
+            <GraduationCap size={14} />
+            View Official Transcript
+          </a>
         </motion.div>
 
         <motion.div
