@@ -3,10 +3,10 @@ import { useRef } from "react";
 import { Award, ExternalLink } from "lucide-react";
 
 const certs = [
-  { title: "Attract and Engage Customers with Digital Marketing", issuer: "Google, Coursera", link: null },
-  { title: "Foundations of Digital Marketing and E-commerce", issuer: "Google, Coursera", link: null },
-  { title: "Introduction to Google SEO", issuer: "UC Davis, Coursera", link: null },
-  { title: "Basics of Digital Marketing", issuer: "Coursera", link: null },
+  { title: "Attract and Engage Customers with Digital Marketing", issuer: "Google, Coursera", link: "https://coursera.org/share/b43b11fc9d2f0d85d097bd3b4aaa2bf9" },
+  { title: "Foundations of Digital Marketing and E-commerce", issuer: "Google, Coursera", link: "https://coursera.org/share/ee54186bcc0e0a3b49c87d2a150ff356" },
+  { title: "Introduction to Google SEO", issuer: "UC Davis, Coursera", link: "https://coursera.org/share/10858ad46c738262a0f86ec98896f9eb" },
+  { title: "Basics of Digital Marketing", issuer: "Coursera", link: "https://coursera.org/share/52a43fede0e1250b34df053e2ccaf58c" },
   { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic Education", link: "https://verify.skilljar.com/c/f7t35d652c2y" },
 ];
 
