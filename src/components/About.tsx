@@ -2,8 +2,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { Plane, GraduationCap, FolderOpen } from "lucide-react";
 
-import { BarChart3 } from "lucide-react";
-
 const stats = [
   { icon: Plane, value: 86, label: "Flight Hours", suffix: "" },
   { icon: GraduationCap, value: 110, label: "ECTS Credits", suffix: "" },
